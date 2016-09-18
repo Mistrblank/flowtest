@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <style>
+<style>
+
+:root {
+  /* Variable Colors */
+  --dusty-color:#96858F;
+  --lavender-color:#6D7993;
+  --overcast-color:#9099A2;
+  --paper-color:#D5D5D5;
+  --teal-color:#008C9A;
+}
 
 body {
-  border-width: 0px;
+  background-color: #DDDDDD;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top, margin-bottom: 0px;
+  width:
 }
 
 .full-page {
   display: flex;
   flex-direction: column;
 
-  background-color: purple;
+/*  background-color: purple; */
   width: 100%;
   height: 100%;
 }
 
-.top-page {
-  background-color: blue;
+.top-page, head {
+  background-color: var(--overcast-color);
   height: 200px;
 }
 
 .mid-page {
   display: flex;
   flex-direction: row;
-  background-color: orange;
+  /* background-color: orange; */
   justify-content: space-around;
 }
 
 .left-side {
-  background-color: yellow;
+  /* background-color: yellow; */
+  flex-direction: column;
 }
 
 .right-side {
-  background-color: yellow;
+  /*  background-color: yellow; */
+  flex-direction: column;
 }
 
 .main {
-  background-color: gold;
+  /* background-color: gold; */
+  flex-direction: column;
 }
 
-  </style>
+.bottom-page {
+  background-color: var(--overcast-color);
+}
+
+</style>
+</head>
 </head>
 <body>
 <div class="full-page">
